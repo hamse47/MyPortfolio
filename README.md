@@ -8,7 +8,7 @@
 <p align="center">
   The first iteration of <a href="https://Hamzaodowa.com" target="_blank">Hamzaodowa.com</a> built with React.js leveraging Material UI.
 
-<img width="1248" alt="Screenshot 2023-11-07 at 10 06 14" src="(https://github.com/hamse47/MyPortfolio/assets/78507974/c531f4c4-3c4a-4e22-b0e1-0e8a0e0f29cc">
+<img width="1248" alt="Screenshot 2023-11-07 at 10 06 14" src="https://github.com/hamse47/MyPortfolio/assets/78507974/bb897ac2-00fe-4480-b2bd-82578b783c9e">
 
 ## 🛠 set-up
 
