@@ -12,6 +12,15 @@
 
 ## 🛠 set-up
 
+ **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/Myportfolio.git
+```
+## Navigate to the project directory
+```bash
+   cd myportfolio
+```
+
 1. Install the dependencies
 
    ```sh
