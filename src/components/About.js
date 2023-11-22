@@ -9,6 +9,10 @@ function About() {
     "Node.js",
     "Python",
     "HTML & CSS",
+    "REST API",
+    "Git",
+    "MongoDB",
+    "Material-UI",
   ];
 
   return (

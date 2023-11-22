@@ -28,7 +28,6 @@ class Projects extends React.Component {
         title: "Student Accommodation HQ",
         desc:
           "In university, choosing the right accommodation is key. My web app simplifies this by offering a database of reviews and ratings from past residents. Students can explore these insights, complete with reviews and photos, to make informed housing choices tailored to their preferences. My aim is to equip students with the knowledge to select the ideal living space",
-
         techStack: "MongoDB, Express.js, React.js, and Nodejs.",
         link:
           "https://github.com/hamse47/Student-Accomm-review#student-accomm-review",
@@ -36,42 +35,31 @@ class Projects extends React.Component {
           "https://github.com/hamse47/Student-Accomm-review#review---confirmation-and-submission",
         image: "/assets/student-accomm.png",
       },
-      "Film Flixster": {
-        title: "Film Flixster",
+      SummarAI: {
+        title: "SummaryAI",
+        desc:
+          "Your go-to solution for navigating the ocean of information in today’s fast-paced world. We harness the power of advanced AI to transform lengthy articles, reports, and documents into concise, easy-to-digest summaries.",
+        techStack: "React.js (Vite), Javascript,  RapidAPI, CSS",
+        link: "https://github.com/hamse47/SummaryAI",
+        open: "https://summary-article.netlify.app/",
+        image: "/assets/summaryai-home-example.png",
+      },
+      "Film Flickster": {
+        title: "Film Flickster",
         desc:
           "Film Flickster is a web application that allows users to discover and explore movies and TV shows. It provides information about popular movies, trending content, and allows users to search for their favourite films. ",
-
-        techStack: "REACT.JS NODE.JS, material-UI NPM ",
+        techStack: "React.JS, Node.JS, material-UI NPM",
         link: "https://github.com/hamse47/film-flickster",
-        open: "https://github.com/hamse47/film-flickster#trending-page",
+        open: "https://flim-flickster.netlify.app/",
         image: "/assets/flimFlickster.png",
-      },
-      Truth: {
-        title: "truth",
-        desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/hamzahamza/truth",
-        open: "https://hamzahamza.github.io/Truth/",
-        image: "/assets/student-accomm.png",
-      },
-      Portfolio: {
-        title: "portfolio.js",
-        desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/hamzahamza/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png",
       },
     };
     const projects = {
-      "TDSB Homework Management Interface": {
-        desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/hamzahamza/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/",
+      SnakeGame: {
+        desc: "A classic snake game from my childhood Turtle with python",
+        techStack: "Python (turtle), HTML",
+        link: "https://github.com/hamse47/SnakeGame",
+        open: "https://SnakeGame.herokuapp.com/",
       },
       "Adam A.I.": {
         desc:
@@ -86,27 +74,6 @@ class Projects extends React.Component {
         techStack: "Node.js (Express.js), React.js, PostgreSQL",
         link:
           "https://github.com/hamzahamza/Distributed-Logging-and-Monitoring-System",
-      },
-      "Odin Bot": {
-        desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/hamzahamza/OdinBot",
-        open: "",
-      },
-      "Game Centre": {
-        desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/hamzahamza/gamecentre",
-        open: "",
-      },
-      "Minimax Stonehenge": {
-        desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/hamzahamza/stonehenge",
-        open: "",
       },
     };
 

@@ -2,6 +2,8 @@
   padding-left: 15%;
   padding-right: 25%;
   min-height: 60vh;
+  align-items: center;
+  text-align: center;
 }
 
 .projects-grid {
@@ -92,6 +94,15 @@
 .carousel-inner:hover {
   transform: scale(1.01);
 }
+/* .carousel-inner, */
+.carousel-item {
+  height: auto; /* Adjust based on content, or set a specific height */
+}
+
+.carousel-inner,
+.carousel-item {
+  height: auto; /* Adjust based on content, or set a specific height */
+}
 
 .carousel img {
   object-fit: contain;
@@ -103,7 +114,7 @@
   font-family: "NTR", sans-serif;
   max-width: 500px;
   right: unset !important;
-  left: 25% !important;
+  left: 20% !important;
   user-select: none;
 }
 
@@ -122,7 +133,7 @@
 
 .carousel-caption p.techStack {
   font-family: "NTR", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: var(--green-bright);
 }
@@ -131,7 +142,7 @@
   background-color: var(--green-bright);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   #projects {
     height: unset;
     padding-left: unset;

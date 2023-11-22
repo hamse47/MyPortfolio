@@ -83,7 +83,7 @@ const JobList = () => {
 
   const experienceItems = {
     HappyCareLtd: {
-      jobTitle: "Web developer/IT specialist",
+      jobTitle: "IT specialist",
       duration: "JUL 2022 - PRESENT",
       desc: [
         "lorem ipsum dolor sit amet, consectetur adip ex ante et iustet et iustet iustet interlorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et i",
@@ -96,6 +96,7 @@ const JobList = () => {
         "As a database developer, I collaborated with Resource Futures, a sustainability consultancy, to solve a complex data management challenge for their client. I led the project team, working directly with the client to understand their needs and design and implement a customized database solution. This tailored system efficiently organized and secured their vast amount of data, providing a valuable resource for their data management needs. I was proud to contribute to a project that supported sustainable practices and environmental well-being.",
       ],
     },
+
     Freelance: {
       jobTitle: "web  development",
       duration: "MAY 2021 - SEPT 2021",
