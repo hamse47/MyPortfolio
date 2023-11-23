@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/hamse47/Portfolio-wedbsite/assets/78507974/8085db21-1c6f-4db8-b6bf-2865b51ec698"/>
+  <img src="https://github.com/hamse47/MyPortfolio/assets/78507974/08873b03-4ba1-4a89-94f0-10e24f0d6be2"/>
 
 </p>
 <h1 align="center">
@@ -8,9 +8,18 @@
 <p align="center">
   The first iteration of <a href="https://Hamzaodowa.com" target="_blank">Hamzaodowa.com</a> built with React.js leveraging Material UI.
 
-<img width="1248" alt="Screenshot 2023-11-07 at 10 06 14" src="https://github.com/hamse47/Portfolio-wedbsite/assets/78507974/1887cff5-2f4f-4c80-9695-c847d07f127f">
+<img width="1248" alt="Screenshot 2023-11-07 at 10 06 14" src="https://github.com/hamse47/MyPortfolio/assets/78507974/bb897ac2-00fe-4480-b2bd-82578b783c9e">
 
 ## 🛠 set-up
+
+ **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/Myportfolio.git
+```
+## Navigate to the project directory
+```bash
+   cd myportfolio
+```
 
 1. Install the dependencies
 
