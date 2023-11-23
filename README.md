@@ -6,9 +6,10 @@
   Hamzaodowa.com - v1
 </h1>
 
-https://hamzaodowa.netlify.app/
+## here is my Website-Portfolio - https://hamzaodowa.netlify.app/
+
 <p align="center">
-  The lastest iteration of <a href="https://hamzaodowa.netlify.app/">Hamzaodowa.com</a> built with React.js leveraging Material UI.
+The lastest iteration of <a href="https://hamzaodowa.netlify.app/">Hamzaodowa.com</a> built with React.js leveraging Material UI.
 
 <img width="1248" alt="Screenshot 2023-11-07 at 10 06 14" src="https://github.com/hamse47/MyPortfolio/assets/78507974/bb897ac2-00fe-4480-b2bd-82578b783c9e">
 
