@@ -41,7 +41,7 @@ class Intro extends React.Component {
             efficient experiences from front to back. Dive into my work, see
             what I'm about, and let's connect to build something great together!
           </div>
-          <a href="hamsenasir97@gmail.com" className="intro-contact">
+          <a href="mailto:hamsenasir97@gmail.com" className="intro-contact">
             <EmailRoundedIcon></EmailRoundedIcon>
             {"  " + "Say hi!"}
           </a>

@@ -35,14 +35,14 @@ class Projects extends React.Component {
           "https://github.com/hamse47/Student-Accomm-review#review---confirmation-and-submission",
         image: "/assets/student-accomm.png",
       },
-      SummarAI: {
+      SummaryAI: {
         title: "SummaryAI",
         desc:
           "Your go-to solution for navigating the ocean of information in today’s fast-paced world. We harness the power of advanced AI to transform lengthy articles, reports, and documents into concise, easy-to-digest summaries.",
         techStack: "React.js (Vite), Javascript,  RapidAPI, CSS",
         link: "https://github.com/hamse47/SummaryAI",
         open: "https://summary-article.netlify.app/",
-        image: "/assets/summaryai-home-example.png",
+        image: "/assets/summary_aI-new-Home.png",
       },
       "Film Flickster": {
         title: "Film Flickster",
@@ -54,35 +54,29 @@ class Projects extends React.Component {
         image: "/assets/flimFlickster.png",
       },
     };
-    const projects = {
+    /*const projects = {
       SnakeGame: {
         desc: "A classic snake game from my childhood Turtle with python",
         techStack: "Python (turtle), HTML",
         link: "https://github.com/hamse47/SnakeGame",
         open: "https://SnakeGame.herokuapp.com/",
       },
-      "Adam A.I.": {
+      lorem: {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/hamzahamza/adamai",
-        open: "https://hamzahamza.github.io/AdamAI/",
-      },
-      "Distributed Logging and Monitoring System": {
-        desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
+          "lorem ipsum dolor sit amet, consectetur adip ex ante et iustet et iustet iustet interlorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ",
+        techStack: "Node.js (Express.js), React.js",
         link:
-          "https://github.com/hamzahamza/Distributed-Logging-and-Monitoring-System",
+          "https://github.com/hamse47/lorem ipsum dolor sit amet, consectetur adip ex ante et iustet ",
       },
     };
+    */
 
     return (
       <div id="projects">
         <div className="section-header ">
           <span className="section-title">/ Software- Projects</span>
         </div>
-        <Carousel>
+        <Carousel interval={null}>
           {Object.keys(spotlightProjects).map((key, i) => (
             <Carousel.Item>
               <img
@@ -110,7 +104,7 @@ class Projects extends React.Component {
         </Carousel>
         <div className="project-container">
           <ul className="projects-grid">
-            {Object.keys(projects).map((key, i) => (
+            {/**  {Object.keys(projects).map((key, i) => (
               <FadeInSection delay={`${i + 1}00ms`}>
                 <li className="projects-card">
                   <div className="card-header">
@@ -130,7 +124,7 @@ class Projects extends React.Component {
                   <div className="card-tech">{projects[key]["techStack"]}</div>
                 </li>
               </FadeInSection>
-            ))}
+            ))}</div> */}
           </ul>
         </div>
       </div>

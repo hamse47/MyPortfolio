@@ -82,11 +82,18 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    HappyCareLtd: {
-      jobTitle: "IT specialist",
-      duration: "JUL 2022 - PRESENT",
+    // HappyCareLtd: {
+    //   jobTitle: "IT specialist",
+    //   duration: "JUL 2022 - PRESENT",
+    //   desc: [
+    //     "lorem ipsum dolor sit amet, consectetur adip ex ante et iustet et iustet iustet interlorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et i",
+    //   ],
+    // },
+    Fiver: {
+      jobTitle: "Freelance",
+      duration: "MAY 2021 - SEPT 2021",
       desc: [
-        "lorem ipsum dolor sit amet, consectetur adip ex ante et iustet et iustet iustet interlorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et ilorem ipsum dolor sit amet, consectetur adip ex ante et iustet et i",
+        "As a freelance Front-End Developer, I've focused on crafting Single Page Applications (SPAs) for local businesses, utilizing a tech stack centered around React and Node.js. My role involves not only developing responsive, intuitive interfaces but also diving into bug fixing to ensure smooth and reliable application performance. Each project is a new opportunity to deepen my expertise in these technologies and to confront unique development challenges, ultimately sharpening my problem-solving skills and broadening my knowledge in front-end development.",
       ],
     },
     ResourceFutures: {
@@ -94,15 +101,6 @@ const JobList = () => {
       duration: "SEP 2022 - MAY 2023 ",
       desc: [
         "As a database developer, I collaborated with Resource Futures, a sustainability consultancy, to solve a complex data management challenge for their client. I led the project team, working directly with the client to understand their needs and design and implement a customized database solution. This tailored system efficiently organized and secured their vast amount of data, providing a valuable resource for their data management needs. I was proud to contribute to a project that supported sustainable practices and environmental well-being.",
-      ],
-    },
-
-    Freelance: {
-      jobTitle: "web  development",
-      duration: "MAY 2021 - SEPT 2021",
-      desc: [
-        "Developing and researching an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik.",
       ],
     },
   };

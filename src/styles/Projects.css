@@ -77,8 +77,7 @@
   color: var(--slate);
   font-size: 16px;
 }
-
-/* Spotlight carousel */
+/* ------------>     Spotlight carousel */
 .carousel.slide {
   max-width: 1000px;
   margin: 0 auto;
@@ -89,14 +88,11 @@
   height: 500px;
   border-radius: 24px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  align-items: center;
 }
 
 .carousel-inner:hover {
   transform: scale(1.01);
-}
-/* .carousel-inner, */
-.carousel-item {
-  height: auto; /* Adjust based on content, or set a specific height */
 }
 
 .carousel-inner,
@@ -105,7 +101,7 @@
 }
 
 .carousel img {
-  object-fit: contain;
+  object-fit: fill;
   height: 100%;
   opacity: 0.4;
 }
@@ -116,12 +112,18 @@
   right: unset !important;
   left: 20% !important;
   user-select: none;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
-
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 2; /* Ensure the controls are above other content */
+}
 .carousel-caption h3 {
   font-size: 38px;
   font-weight: bold;
   color: var(--lightest-slate);
+  justify-content: center;
 }
 
 .carousel-caption p {
@@ -129,6 +131,7 @@
   font-weight: bolder;
   font-size: 18px;
   color: var(--hard-slate);
+  justify-content: center;
 }
 
 .carousel-caption p.techStack {
