@@ -53,7 +53,6 @@ class Projects extends React.Component {
         open: "https://flim-flickster.netlify.app/",
         image: "/assets/flimFlickster.png",
       },
-<<<<<<< HEAD
     };
     /*const projects = {
       SnakeGame: {
@@ -69,12 +68,6 @@ class Projects extends React.Component {
         link:
           "https://github.com/hamse47/lorem ipsum dolor sit amet, consectetur adip ex ante et iustet ",
       },
-=======
-     
-    };
-    const projects = {
-     
->>>>>>> 7ed38fb ( updated experience About pages)
     };
     */
 

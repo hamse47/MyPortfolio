@@ -29,13 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-<<<<<<< HEAD
-    "deploy": "gh-pages -b master -d build",
-    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
-=======
     "deploy": "gh-pages -b master -d build"
->>>>>>> 7ed38fb ( updated experience About pages)
   },
   "eslintConfig": {
     "extends": "react-app"
