@@ -4,6 +4,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import TwitterIcon from "@material-ui/icons/Twitter";
 
 import "../styles/SidebarNav.css";
 import "react-typist/dist/Typist.css";
@@ -29,10 +30,10 @@ class SidebarNav extends React.Component {
     const { expanded } = this.state;
 
     const links = [
-      <a href="#intro">/home</a>,
-      <a href="#about">/about</a>,
-      <a href="#experience">/experience</a>,
-      <a href="#projects">/software-creations</a>,
+      <a href="#intro">/Home</a>,
+      <a href="#about">/About</a>,
+      <a href="#experience">/Experience</a>,
+      <a href="#projects">/Software-Projects</a>,
     ];
 
     return (
@@ -65,6 +66,9 @@ class SidebarNav extends React.Component {
           </a>
           <a href="https://www.linkedin.com/in/hamza-odowa/">
             <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
+          </a>
+          <a href="https://twitter.com/HamseOdowa">
+            <TwitterIcon style={{ fontSize: 21 }}></TwitterIcon>
           </a>
         </div>
       </div>
