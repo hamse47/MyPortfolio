@@ -46,8 +46,8 @@ class About extends React.Component {
     const two = (
       <p>
         <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:hamsenasir97@gmail.com">hamsenasir97@gmail.com</a> and
-        let's talk.
+        <a href="mailto:hamza2developer@gmail.com">hamza2developer@gmail.com</a>{" "}
+        and let's talk.
       </p>
     );
     const desc_items = [one, two];
