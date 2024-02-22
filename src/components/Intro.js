@@ -34,6 +34,7 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle">I create stuff.</div>
           <div className="intro-desc">
+<<<<<<< HEAD
             I'm a <a>FrontEnd developer</a> based in <a>Bristol</a>. I blend a
             keen eye for design with the technical prowess of software
             engineering. Frontend is my playground, but my curiosity spans the
@@ -42,6 +43,13 @@ class Intro extends React.Component {
             what I'm about, and let's connect to build something great together!
           </div>
           <a href="mailto:hamsenasir97@gmail.com" className="intro-contact">
+=======
+            I'm a <a>Full Stack Developer</a> based in <a>Bristol</a>. I have
+            great interest in software development, artificial
+            intelligence ,big data, Web-3, and everything in between.
+          </div>
+          <a href="hamza2developer@gmail.com" className="intro-contact">
+>>>>>>> 7ed38fb ( updated experience About pages)
             <EmailRoundedIcon></EmailRoundedIcon>
             {"  " + "Say hi!"}
           </a>

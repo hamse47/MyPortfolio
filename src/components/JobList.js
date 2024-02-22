@@ -82,6 +82,7 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
+<<<<<<< HEAD
     // HappyCareLtd: {
     //   jobTitle: "IT specialist",
     //   duration: "JUL 2022 - PRESENT",
@@ -94,15 +95,32 @@ const JobList = () => {
       duration: "MAY 2021 - SEPT 2021",
       desc: [
         "As a freelance Front-End Developer, I've focused on crafting Single Page Applications (SPAs) for local businesses, utilizing a tech stack centered around React and Node.js. My role involves not only developing responsive, intuitive interfaces but also diving into bug fixing to ensure smooth and reliable application performance. Each project is a new opportunity to deepen my expertise in these technologies and to confront unique development challenges, ultimately sharpening my problem-solving skills and broadening my knowledge in front-end development.",
+=======
+    "Y-entertainment": {
+      jobTitle: "Software Engineer Intern @",
+      duration: "DEC 2023 - PRESENT",
+      desc: [
+        "Contributing to end-to-end project implementation, emphasising collaboration with AI researchers and designers",
+        "Spearheading the development and integration of cutting-edge technologies including AI, NFT, and 3D scanning for the creation of Shakesphere, an innovative service tailored for high-end brands in creative industries.",
+>>>>>>> 7ed38fb ( updated experience About pages)
       ],
     },
     ResourceFutures: {
       jobTitle: "Database Developer",
       duration: "SEP 2022 - MAY 2023 ",
       desc: [
-        "As a database developer, I collaborated with Resource Futures, a sustainability consultancy, to solve a complex data management challenge for their client. I led the project team, working directly with the client to understand their needs and design and implement a customized database solution. This tailored system efficiently organized and secured their vast amount of data, providing a valuable resource for their data management needs. I was proud to contribute to a project that supported sustainable practices and environmental well-being.",
+        "As a database developer, I collaborated with Resource Futures, a sustainability consultancy, to solve a complex data management challenge for their client. I led the project team, working directly with the client to understand their needs and design and implement a customized database solution.",
+        "This tailored system efficiently organized and secured their vast amount of data, providing a valuable resource for their data management needs. I was proud to contribute to a project that supported sustainable practices and environmental well-being.",
       ],
     },
+<<<<<<< HEAD
+=======
+    Freelance: {
+      jobTitle: "Web  developer",
+      duration: "MAY 2021 - SEPT 2021",
+      desc: ["lorem ipsum"],
+    },
+>>>>>>> 7ed38fb ( updated experience About pages)
   };
 
   const handleChange = (event, newValue) => {
