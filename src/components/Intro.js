@@ -36,7 +36,10 @@ class Intro extends React.Component {
           <div className="intro-desc">
             I'm a <a>Full Stack Developer</a> based in <a>Bristol</a>. I have
             great interest in software development, artificial intelligence ,
-            big data , Web-3, and everything in between.
+            big data , Web-3, and everything in between. I'm all about
+            developing seamless, effective software from front to back. Dive
+            into my work, see what am about, and lets connect to build something
+            great.
           </div>
           <a href="hamza2developer@gmail.com" className="intro-contact">
             <EmailRoundedIcon></EmailRoundedIcon>
