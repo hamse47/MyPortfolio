@@ -34,12 +34,13 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle">I create stuff.</div>
           <div className="intro-desc">
-            I'm a <a>Full Stack Developer</a> based in <a>Bristol</a>. I have
-            great interest in software development, artificial intelligence ,
-            big data , Web-3, and everything in between. I'm all about
-            developing seamless, effective software from front to back. Dive
-            into my work, see what am about, and lets connect to build something
-            great.
+            I'm a <a>Full Stack Software Engineer</a> based in <a>Bristol</a>. I
+            have great interest in Software Development, Artificial
+            Intelligence, Big Data, Web-3, and everything in between. I'm all
+            about developing seamless and effective software from front to back.
+            Dive into my work, see what am about, and{" "}
+            <a href="https://www.linkedin.com/in/hamza-odowa/">Lets connect</a>{" "}
+            to build something great.
           </div>
           <a href="hamza2developer@gmail.com" className="intro-contact">
             <EmailRoundedIcon></EmailRoundedIcon>
