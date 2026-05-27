@@ -17,29 +17,27 @@ The lastest iteration of <a href="https://hamzaodowa.netlify.app/">Hamzaodowa.co
 
  **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/Myportfolio.git
-```
-## Navigate to the project directory
-```bash
-   cd myportfolio
-```
+   git clone https://github.com/hamse47/MyPortfolio.git
+   ```
 
-1. Install the dependencies
+2. **Navigate to the project directory:**
+   ```bash
+   cd MyPortfolio
+   ```
 
+3. **Install the dependencies:**
    ```sh
    npm install or yarn
    ```
 
-2. Start the development server
-
+4. **Start the development server:**
    ```sh
    yarn run start
    ```
 
 ## 🚀 build and run for production
 
-1. Generate a full static production build
-
+1. **Generate a full static production build:**
    ```sh
    npm run build
    ```
