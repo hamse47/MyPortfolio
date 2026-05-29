@@ -1,9 +1,5 @@
 import React from "react";
 import "../styles/Projects.css";
-import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
-import FadeInSection from "./FadeInSection";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-bootstrap/Carousel";
 import ExternalLinks from "./ExternalLinks";
@@ -77,8 +73,8 @@ class Projects extends React.Component {
           <span className="section-title">/ Software- Projects</span>
         </div>
         <Carousel interval={null}>
-          {Object.keys(spotlightProjects).map((key, i) => (
-            <Carousel.Item>
+          {Object.keys(spotlightProjects).map((key) => (
+            <Carousel.Item key={key}>
               <img
                 className="d-block w-100"
                 src={spotlightProjects[key]["image"]}
