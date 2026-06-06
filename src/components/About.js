@@ -36,7 +36,14 @@ class About extends React.Component {
     const one = (
       <p>
         I recently graduated from the{" "}
-        <a href="https://www.uwe.ac.uk">University of West England</a> with a
+        <a
+          href="https://www.uwe.ac.uk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          University of West England
+        </a>{" "}
+        with a
         Bachelor of Science in <a>Software Engineer for businesses</a>. I focus
         on developing high-quality software that empowers businesses, with a
         keen interest in Full Stack Development. As a dedicated problem solver
