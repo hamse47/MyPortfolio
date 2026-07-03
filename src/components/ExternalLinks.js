@@ -19,7 +19,11 @@ class ExternalLinks extends React.Component {
   render() {
     return (
       <span className="external-links">
-        <a className="github-icon" href={this.props.githubLink}>
+        <a
+          className="github-icon"
+          href={this.props.githubLink}
+          aria-label="View source on GitHub"
+        >
           <GitHubIcon
             style={{
               fontSize: 20,
@@ -28,7 +32,11 @@ class ExternalLinks extends React.Component {
           ></GitHubIcon>
         </a>
         {this.props.openLink && (
-          <a className="open-icon" href={this.props.openLink}>
+          <a
+            className="open-icon"
+            href={this.props.openLink}
+            aria-label="Open live project"
+          >
             <OpenInBrowserIcon
               style={{
                 fontSize: 25,
