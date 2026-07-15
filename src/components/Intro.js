@@ -42,7 +42,7 @@ class Intro extends React.Component {
             <a href="https://www.linkedin.com/in/hamza-odowa/">Lets connect</a>{" "}
             to build something great.
           </div>
-          <a href="hamza2developer@gmail.com" className="intro-contact">
+          <a href="mailto:hamza2developer@gmail.com" className="intro-contact">
             <EmailRoundedIcon></EmailRoundedIcon>
             {"  " + "Say hi!"}
           </a>
