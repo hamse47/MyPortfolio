@@ -34,7 +34,8 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle">I create stuff.</div>
           <div className="intro-desc">
-            I'm a <a>Full Stack Software Engineer</a> based in <a>Bristol</a>. I
+            I'm a <span className="intro-highlight">Full Stack Software Engineer</span> based in{" "}
+            <span className="intro-highlight">Bristol</span>. I
             have great interest in Software Development, Artificial
             Intelligence, Big Data, Web-3, and everything in between. I'm all
             about developing seamless and effective software from front to back.
