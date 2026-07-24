@@ -106,3 +106,7 @@ b {
     margin-left: 30%;
   }
 }
+
+.intro-highlight {
+  color: var(--green-bright);
+}
