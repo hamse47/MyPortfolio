@@ -89,9 +89,9 @@ class Projects extends React.Component {
                   <h3>{spotlightProjects[key]["title"]}</h3>
                   <p>
                     {spotlightProjects[key]["desc"]}
-                    <p className="techStack">
+                    <span className="techStack">
                       {spotlightProjects[key]["techStack"]}
-                    </p>
+                    </span>
                   </p>
                   <ExternalLinks
                     githubLink={spotlightProjects[key]["link"]}
