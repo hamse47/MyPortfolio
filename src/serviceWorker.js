@@ -139,11 +139,3 @@ export function unregister() {
       });
   }
 }
-
-/*
-This code provides a function register(config) that takes a configuration object as a parameter. Based on the NODE_ENV environment variable, it will include the appropriate versions of Inferno, etc. for the current environment.
-
-Additionally, the renderToString(component) function has been added. This function uses Inferno's renderToStringAsync function to render a component to a string. This is useful when server-side rendering (SSR) is desired.
-
-In both functions, a console.log statement is included to indicate whether the code is running in a development or production environment. This can be helpful for debugging purposes.
-*/
