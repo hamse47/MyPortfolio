@@ -9,28 +9,32 @@
 ## here is my Website-Portfolio - https://hamzaodowa.netlify.app/
 
 <p align="center">
-The lastest iteration of <a href="https://hamzaodowa.netlify.app/">Hamzaodowa.com</a> built with React.js leveraging Material UI.
+The latest iteration of <a href="https://hamzaodowa.netlify.app/">Hamzaodowa.com</a> built with React.js leveraging Material UI.
+</p>
 
 <img width="1248" alt="Screenshot 2023-11-07 at 10 06 14" src="https://github.com/hamse47/MyPortfolio/assets/78507974/bb897ac2-00fe-4480-b2bd-82578b783c9e">
 
 ## 🛠 set-up
 
- **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/Myportfolio.git
-```
-## Navigate to the project directory
-```bash
-   cd myportfolio
-```
+1. Clone the repository
 
-1. Install the dependencies
+   ```sh
+   git clone https://github.com/hamse47/MyPortfolio.git
+   ```
+
+2. Navigate to the project directory
+
+   ```sh
+   cd MyPortfolio
+   ```
+
+3. Install the dependencies
 
    ```sh
    npm install or yarn
    ```
 
-2. Start the development server
+4. Start the development server
 
    ```sh
    yarn run start
@@ -57,4 +61,4 @@ The lastest iteration of <a href="https://hamzaodowa.netlify.app/">Hamzaodowa.co
 | White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
 
-# Portfolio-wedbsite
+# Portfolio-website
