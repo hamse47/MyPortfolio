@@ -49,7 +49,7 @@ class SidebarNav extends React.Component {
             <Sidenav.Body>
               <div className="sidebar-links">
                 {links.map((link, i) => (
-                  <FadeInSection delay={`${i + 1}00ms`}>
+                  <FadeInSection key={i} delay={`${i + 1}00ms`}>
                     <div>{link}</div>
                   </FadeInSection>
                 ))}
@@ -57,7 +57,7 @@ class SidebarNav extends React.Component {
             </Sidenav.Body>
           </Sidenav>
         )}
-        <div className="sidebar-logos" href="/">
+        <div className="sidebar-logos">
           <a href="mailto:hamsenasir97@gmail.com">
             <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
           </a>
