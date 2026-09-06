@@ -3,21 +3,6 @@ import "../styles/About.css";
 import FadeInSection from "./FadeInSection";
 
 class About extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      expanded: true,
-      activeKey: "1",
-    };
-    this.handleSelect = this.handleSelect.bind(this);
-  }
-
-  handleSelect(eventKey) {
-    this.setState({
-      activeKey: eventKey,
-    });
-  }
-
   render() {
     const tech_stack = [
       "Javascript ES6+",
