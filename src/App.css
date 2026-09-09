@@ -84,6 +84,7 @@ html {
   color: var(--lightest-slate);
   font-size: 46px;
   font-weight: bold;
+  margin: 0;
 }
 
 @media only screen and (max-width: 600px) {

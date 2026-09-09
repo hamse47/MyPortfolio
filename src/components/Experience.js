@@ -8,7 +8,7 @@ function Experience() {
     <div id="experience">
       <FadeInSection>
         <div className="section-header">
-          <span className="section-title">/ Experience</span>
+          <h2 className="section-title">/ Experience</h2>
         </div>
         <JobList />
       </FadeInSection>
