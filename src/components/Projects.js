@@ -78,7 +78,7 @@ class Projects extends React.Component {
         </div>
         <Carousel interval={null}>
           {Object.keys(spotlightProjects).map((key, i) => (
-            <Carousel.Item>
+            <Carousel.Item key={key}>
               <img
                 className="d-block w-100"
                 src={spotlightProjects[key]["image"]}
